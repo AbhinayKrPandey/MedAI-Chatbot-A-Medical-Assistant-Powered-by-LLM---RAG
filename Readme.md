@@ -35,14 +35,14 @@ Python 3.10
 
 ***Install requirements***: pip install -r requirements.txt
 
-***Install*** Ollama
+***Install*** [Ollama](https://ollama.com/download/windows)
 
 At least 8GB of RAM
 
 An Nvidia GPU with a minimum of 2GB dedicated memory is recommended for optimal performance.
 
 **Setup Instructions**
-Download Datasets: Download the MedQuad datasets and place them in the data folder.
+Download Datasets: Download the [MedQuad](https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-ai-research) datasets and place them in the data folder.
 
 Prepare Vector Index: Run src/create_index.py to process the datasets and build the vector store.
 
