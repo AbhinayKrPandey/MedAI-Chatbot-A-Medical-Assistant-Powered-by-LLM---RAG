@@ -44,9 +44,9 @@ An Nvidia GPU with a minimum of 2GB dedicated memory is recommended for optimal 
 **Setup Instructions**
 Download Datasets: Download the [MedQuad](https://www.kaggle.com/datasets/pythonafroz/medquad-medical-question-answer-for-ai-research) datasets and place them in the data folder.
 
-Prepare Vector Index: Run src/create_index.py to process the datasets and build the vector store.
+Prepare Vector Index: Run (src/create_index.py) to process the datasets and build the vector store.
 
-Prepare SQLite Database: Run src/create_db.py to set up the database schema.
+Prepare SQLite Database: Run (src/create_db.py) to set up the database schema.
 
 Download LLM: From your terminal, run ollama pull llama3.1 to download the language model.
 
